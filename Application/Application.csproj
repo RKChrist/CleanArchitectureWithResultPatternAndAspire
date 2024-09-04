@@ -14,7 +14,7 @@
   <ItemGroup>
     <Folder Include="Handlers\Security\Auth\Queries\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Services\" />
+    <Folder Include="Validator\DomainObjectValidator\" />
   </ItemGroup>
 
   <ItemGroup>

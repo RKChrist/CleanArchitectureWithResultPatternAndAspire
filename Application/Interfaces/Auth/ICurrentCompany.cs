@@ -8,5 +8,6 @@ namespace Application.Interfaces.Auth
 {
     public interface ICurrentCompany
     {
+        int CompanyId { get; }
     }
 }

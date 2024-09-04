@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Interfaces.Auth
+namespace Application.Interfaces.Helper
 {
-    public interface ICurrentProject
+    public interface ITimeProvider
     {
-        int ProjectId { get; }
+        DateTime Now { get; }
     }
 }

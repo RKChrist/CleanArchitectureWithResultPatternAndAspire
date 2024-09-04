@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Interfaces.Auth
+namespace Application.Validator.Auth
 {
-    public interface ICurrentProject
+    internal class AccessValidator
     {
-        int ProjectId { get; }
     }
 }

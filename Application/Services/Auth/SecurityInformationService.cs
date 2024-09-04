@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Interfaces.Auth
+namespace Application.Services.Auth
 {
-    public interface ICurrentProject
+    public class SecurityInformationService
     {
-        int ProjectId { get; }
     }
 }

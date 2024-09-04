@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Interfaces.Auth
+namespace Domain.Entities.Management
 {
-    public interface ICurrentProject
+    public class Group
     {
-        int ProjectId { get; }
     }
 }

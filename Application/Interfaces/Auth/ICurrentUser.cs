@@ -8,5 +8,7 @@ namespace Application.Interfaces.Auth
 {
     public interface ICurrentUser
     {
+        int? UserId { get; }
+        bool IsAuthenticated { get; }
     }
 }
