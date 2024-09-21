@@ -20,6 +20,7 @@ namespace Infrastructure.Repositories.Context
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.AddIdsForValueObjects();
             base.OnModelCreating(modelBuilder);
         }
 

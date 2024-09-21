@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities.Auth
 {
-    public class UserRole : BaseEntity<UserRolesId>
+    public class UserRole : BaseEntity<UserRolesId, Guid>
     {
         public override UserRolesId Id { get; set; }  = new UserRolesId(Guid.NewGuid());
 
